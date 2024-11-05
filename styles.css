@@ -1,0 +1,76 @@
+/* Basic Style */
+body {
+	
+	color:blue;
+	font-family: sans-serif;
+}
+
+.container {
+	display: block;
+	width: 500px;
+	margin: 50px auto 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li * {
+	float: left;
+}
+
+li,
+h3 {
+	clear: both;
+	list-style: none;
+}
+
+input,
+button {
+	outline: none;
+}
+
+button {
+	background: none;
+	border: 0;
+	color: #888;
+	font-size: 15px;
+	width: 100px;
+	margin: 10px 0 0;
+	font-family: Lato, sans-serif;
+	cursor: pointer;
+}
+
+
+/* Heading */
+h3,
+label[for='new-task'] {
+	color:blue;
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 2px solid #333;
+	padding: 30px 0 10px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+input[type="text"] {
+	margin: 0;
+	font-size: 18px;
+	line-height: 18px;
+	height: 18px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 6px;
+	font-family: Lato, sans-serif;
+	color: #888;
+}
+
+
+.middle {
+	text-align: center;
+}
+
+

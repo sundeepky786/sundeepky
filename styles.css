@@ -1,8 +1,8 @@
 /* Basic Style */
 body {
-	
+	background: #fff;
 	color:blue;
-	font-family: sans-serif;
+	font-family:serif, sans-serif;
 }
 
 .container {
@@ -38,7 +38,7 @@ button {
 	font-size: 15px;
 	width: 100px;
 	margin: 10px 0 0;
-	font-family: Lato, sans-serif;
+	font-family: serif, sans-serif;
 	cursor: pointer;
 }
 

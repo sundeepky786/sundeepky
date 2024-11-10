@@ -33,9 +33,9 @@ button {
 
 button {
 	background: none;
-	border: 0;
-	color: #888;
-	font-size: 15px;
+	border: Black;
+	color: #888888;
+	font-size: 20px;
 	width: 100px;
 	margin: 10px 0 0;
 	font-family: serif, sans-serif;

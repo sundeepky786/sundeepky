@@ -9,6 +9,7 @@ body {
 	display: block;
 	width: 500px;
 	margin: 50px auto 0;
+	outline:auto;
 }
 
 ul {
@@ -28,19 +29,20 @@ h3 {
 
 input,
 button {
-	outline: none;
+	outline:black;
 }
 
 button {
-	background: blue;
+	background: cyan;
 	border: Black;
-	color: #888888;
+	color: red;
 	font-size: 20px;
 	width: 100px;
-	margin: 10px 0 0;
+	margin: 02px 0 0;
 	font-family: serif, sans-serif;
 	cursor: pointer;
-}
+	border-style:solid;
+	}
 
 button:hover {
 	color: #333;

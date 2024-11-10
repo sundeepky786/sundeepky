@@ -101,3 +101,15 @@ let taskCompleted = function () {
 	bindTaskEvents(listItem, taskIncomplete);
 
 }
+
+/*---- Part 6 ----*/
+let taskIncomplete = function () {
+	// Mark task as incomplete.
+	// When the checkbox is unchecked
+	// Append the task list item to the #incomplete-tasks.
+	let listItem = this.parentNode;
+	incompleteTaskHolder.appendChild(listItem);
+	bindTaskEvents(listItem, taskCompleted);
+
+}
+

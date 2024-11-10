@@ -129,3 +129,23 @@ let bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
 	checkBox.onchange = checkBoxEventHandler;
 }
 
+/*---- Part 8 ----*/
+// Set the click handler to the addTask function
+addButton.addEventListener("click", addTask);
+addButton.addEventListener("click", ajaxRequest);
+
+/*---- Part 9 ----*/
+// Cycle over incompleteTaskHolder ul list items
+for (let i = 0; i < incompleteTaskHolder.children.length; i++) {
+	// bind events to list item's children (taskCompleted)
+	bindTaskEvents(incompleteTaskHolder.children[i], taskCompleted);
+}
+
+/*---- Part 10 ----*/
+// Cycle over completedTasksHolder ul list items
+for (let i = 0; i < completedTasksHolder.children.length; i++) {
+	// bind events to list item's children (taskIncomplete)
+	bindTaskEvents(completedTasksHolder.children[i], taskIncomplete);
+}
+
+

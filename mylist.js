@@ -1,5 +1,5 @@
 // Add a new task.
-let taskInput = document.getElementById("New-task");
+let taskInput = document.getElementById("new-task");
 
 // first button
 let addButton = document.getElementsByTagName("button")[0];

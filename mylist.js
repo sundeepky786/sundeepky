@@ -1,5 +1,5 @@
 // Add a new task.
-let taskInput = document.getElementById("new-task");
+let taskInput = document.getElementById("New-task");
 
 // first button
 let addButton = document.getElementsByTagName("button")[0];
@@ -89,5 +89,15 @@ let deleteTask = function () {
 	let ul = listItem.parentNode;
 	// Remove the parent list item from the ul.
 	ul.removeChild(listItem);
+
+}
+/*---- Part 5 ----*/
+
+let taskCompleted = function () {
+
+	// Append the task list item to the #completed-tasks
+	let listItem = this.parentNode;
+	completedTasksHolder.appendChild(listItem);
+	bindTaskEvents(listItem, taskIncomplete);
 
 }
